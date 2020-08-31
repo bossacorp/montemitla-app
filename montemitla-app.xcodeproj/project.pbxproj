@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81CF606D24FC786E00441426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF606C24FC786E00441426 /* AppDelegate.swift */; };
+		81CF606F24FC786E00441426 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF606E24FC786E00441426 /* SceneDelegate.swift */; };
+		81CF607124FC786E00441426 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF607024FC786E00441426 /* ViewController.swift */; };
+		81CF607424FC786E00441426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CF607224FC786E00441426 /* Main.storyboard */; };
+		81CF607624FC786F00441426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CF607524FC786F00441426 /* Assets.xcassets */; };
+		81CF607924FC786F00441426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CF607724FC786F00441426 /* LaunchScreen.storyboard */; };
+		81CF608424FC786F00441426 /* montemitla_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF608324FC786F00441426 /* montemitla_appTests.swift */; };
+		81CF608F24FC786F00441426 /* montemitla_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF608E24FC786F00441426 /* montemitla_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81CF608024FC786F00441426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CF606124FC786E00441426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CF606824FC786E00441426;
+			remoteInfo = "montemitla-app";
+		};
+		81CF608B24FC786F00441426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CF606124FC786E00441426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CF606824FC786E00441426;
+			remoteInfo = "montemitla-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81CF606924FC786E00441426 /* montemitla-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "montemitla-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CF606C24FC786E00441426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81CF606E24FC786E00441426 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81CF607024FC786E00441426 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81CF607324FC786E00441426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81CF607524FC786F00441426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81CF607824FC786F00441426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81CF607A24FC786F00441426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CF607F24FC786F00441426 /* montemitla-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "montemitla-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CF608324FC786F00441426 /* montemitla_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = montemitla_appTests.swift; sourceTree = "<group>"; };
+		81CF608524FC786F00441426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CF608A24FC786F00441426 /* montemitla-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "montemitla-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CF608E24FC786F00441426 /* montemitla_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = montemitla_appUITests.swift; sourceTree = "<group>"; };
+		81CF609024FC786F00441426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81CF606624FC786E00441426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CF607C24FC786F00441426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CF608724FC786F00441426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81CF606024FC786E00441426 = {
+			isa = PBXGroup;
+			children = (
+				81CF606B24FC786E00441426 /* montemitla-app */,
+				81CF608224FC786F00441426 /* montemitla-appTests */,
+				81CF608D24FC786F00441426 /* montemitla-appUITests */,
+				81CF606A24FC786E00441426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81CF606A24FC786E00441426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81CF606924FC786E00441426 /* montemitla-app.app */,
+				81CF607F24FC786F00441426 /* montemitla-appTests.xctest */,
+				81CF608A24FC786F00441426 /* montemitla-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81CF606B24FC786E00441426 /* montemitla-app */ = {
+			isa = PBXGroup;
+			children = (
+				81CF606C24FC786E00441426 /* AppDelegate.swift */,
+				81CF606E24FC786E00441426 /* SceneDelegate.swift */,
+				81CF607024FC786E00441426 /* ViewController.swift */,
+				81CF607224FC786E00441426 /* Main.storyboard */,
+				81CF607524FC786F00441426 /* Assets.xcassets */,
+				81CF607724FC786F00441426 /* LaunchScreen.storyboard */,
+				81CF607A24FC786F00441426 /* Info.plist */,
+			);
+			path = "montemitla-app";
+			sourceTree = "<group>";
+		};
+		81CF608224FC786F00441426 /* montemitla-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				81CF608324FC786F00441426 /* montemitla_appTests.swift */,
+				81CF608524FC786F00441426 /* Info.plist */,
+			);
+			path = "montemitla-appTests";
+			sourceTree = "<group>";
+		};
+		81CF608D24FC786F00441426 /* montemitla-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81CF608E24FC786F00441426 /* montemitla_appUITests.swift */,
+				81CF609024FC786F00441426 /* Info.plist */,
+			);
+			path = "montemitla-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81CF606824FC786E00441426 /* montemitla-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CF609324FC786F00441426 /* Build configuration list for PBXNativeTarget "montemitla-app" */;
+			buildPhases = (
+				81CF606524FC786E00441426 /* Sources */,
+				81CF606624FC786E00441426 /* Frameworks */,
+				81CF606724FC786E00441426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "montemitla-app";
+			productName = "montemitla-app";
+			productReference = 81CF606924FC786E00441426 /* montemitla-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81CF607E24FC786F00441426 /* montemitla-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CF609624FC786F00441426 /* Build configuration list for PBXNativeTarget "montemitla-appTests" */;
+			buildPhases = (
+				81CF607B24FC786F00441426 /* Sources */,
+				81CF607C24FC786F00441426 /* Frameworks */,
+				81CF607D24FC786F00441426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CF608124FC786F00441426 /* PBXTargetDependency */,
+			);
+			name = "montemitla-appTests";
+			productName = "montemitla-appTests";
+			productReference = 81CF607F24FC786F00441426 /* montemitla-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81CF608924FC786F00441426 /* montemitla-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CF609924FC786F00441426 /* Build configuration list for PBXNativeTarget "montemitla-appUITests" */;
+			buildPhases = (
+				81CF608624FC786F00441426 /* Sources */,
+				81CF608724FC786F00441426 /* Frameworks */,
+				81CF608824FC786F00441426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CF608C24FC786F00441426 /* PBXTargetDependency */,
+			);
+			name = "montemitla-appUITests";
+			productName = "montemitla-appUITests";
+			productReference = 81CF608A24FC786F00441426 /* montemitla-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81CF606124FC786E00441426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = bossacorp;
+				TargetAttributes = {
+					81CF606824FC786E00441426 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					81CF607E24FC786F00441426 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 81CF606824FC786E00441426;
+					};
+					81CF608924FC786F00441426 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 81CF606824FC786E00441426;
+					};
+				};
+			};
+			buildConfigurationList = 81CF606424FC786E00441426 /* Build configuration list for PBXProject "montemitla-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81CF606024FC786E00441426;
+			productRefGroup = 81CF606A24FC786E00441426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81CF606824FC786E00441426 /* montemitla-app */,
+				81CF607E24FC786F00441426 /* montemitla-appTests */,
+				81CF608924FC786F00441426 /* montemitla-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81CF606724FC786E00441426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CF607924FC786F00441426 /* LaunchScreen.storyboard in Resources */,
+				81CF607624FC786F00441426 /* Assets.xcassets in Resources */,
+				81CF607424FC786E00441426 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CF607D24FC786F00441426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CF608824FC786F00441426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81CF606524FC786E00441426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CF607124FC786E00441426 /* ViewController.swift in Sources */,
+				81CF606D24FC786E00441426 /* AppDelegate.swift in Sources */,
+				81CF606F24FC786E00441426 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CF607B24FC786F00441426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CF608424FC786F00441426 /* montemitla_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CF608624FC786F00441426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CF608F24FC786F00441426 /* montemitla_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81CF608124FC786F00441426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CF606824FC786E00441426 /* montemitla-app */;
+			targetProxy = 81CF608024FC786F00441426 /* PBXContainerItemProxy */;
+		};
+		81CF608C24FC786F00441426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CF606824FC786E00441426 /* montemitla-app */;
+			targetProxy = 81CF608B24FC786F00441426 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81CF607224FC786E00441426 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81CF607324FC786E00441426 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81CF607724FC786F00441426 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81CF607824FC786F00441426 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81CF609124FC786F00441426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81CF609224FC786F00441426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81CF609424FC786F00441426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EL2X345N2Z;
+				INFOPLIST_FILE = "montemitla-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bossacorp.montemitla-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81CF609524FC786F00441426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EL2X345N2Z;
+				INFOPLIST_FILE = "montemitla-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bossacorp.montemitla-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81CF609724FC786F00441426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EL2X345N2Z;
+				INFOPLIST_FILE = "montemitla-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bossacorp.montemitla-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/montemitla-app.app/montemitla-app";
+			};
+			name = Debug;
+		};
+		81CF609824FC786F00441426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EL2X345N2Z;
+				INFOPLIST_FILE = "montemitla-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bossacorp.montemitla-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/montemitla-app.app/montemitla-app";
+			};
+			name = Release;
+		};
+		81CF609A24FC786F00441426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EL2X345N2Z;
+				INFOPLIST_FILE = "montemitla-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bossacorp.montemitla-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "montemitla-app";
+			};
+			name = Debug;
+		};
+		81CF609B24FC786F00441426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EL2X345N2Z;
+				INFOPLIST_FILE = "montemitla-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bossacorp.montemitla-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "montemitla-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81CF606424FC786E00441426 /* Build configuration list for PBXProject "montemitla-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CF609124FC786F00441426 /* Debug */,
+				81CF609224FC786F00441426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CF609324FC786F00441426 /* Build configuration list for PBXNativeTarget "montemitla-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CF609424FC786F00441426 /* Debug */,
+				81CF609524FC786F00441426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CF609624FC786F00441426 /* Build configuration list for PBXNativeTarget "montemitla-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CF609724FC786F00441426 /* Debug */,
+				81CF609824FC786F00441426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CF609924FC786F00441426 /* Build configuration list for PBXNativeTarget "montemitla-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CF609A24FC786F00441426 /* Debug */,
+				81CF609B24FC786F00441426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81CF606124FC786E00441426 /* Project object */;
+}
