@@ -19,10 +19,20 @@
                                 <rect key="frame" x="36" y="146" width="303" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yut-bH-JFJ">
+                                <rect key="frame" x="16" y="146" width="336" height="328"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="monteMitlaLogoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="saF-QP-xLL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="monteMitlaImageView" destination="Q5S-De-47c" id="C5P-bx-6wS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -30,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="montemotlaLogo" width="227" height="222"/>
+        <image name="montemotlaLogo" width="113.5" height="111"/>
     </resources>
 </document>

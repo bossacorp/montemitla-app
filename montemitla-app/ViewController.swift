@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var monteMitlaImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func monteMitlaLogoPressed(_ sender: UIButton) {
+        print("Monte Mitla Logo tapped");
+        monteMitlaImageView.alpha = 0.5;
+    }
 }
 
