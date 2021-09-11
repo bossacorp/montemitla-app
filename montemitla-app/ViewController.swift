@@ -24,9 +24,8 @@ class ViewController: UIViewController {
             print("We should be Legacy...")
         }
         //monteMitlaImageView.alpha = 0.5;
-        
-        let mezanineVC = mezanineViewController()
-        self.present(mezanineVC, animated: true, completion: nil)
+        self.performSegue(withIdentifier: "goToMezzanine", sender: self)
     }
+    
 }
 
